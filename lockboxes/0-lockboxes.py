@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 "Method that determines if all the boxes can be opened"
 
+
 def canUnlockAll(boxes):
     opened_boxes = {0}
-    keys = set(boxes[0])  
+    keys = set(boxes[0])
 
     while keys:
         new_keys = set()
