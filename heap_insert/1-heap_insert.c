@@ -14,7 +14,6 @@ heap_t *heap_insert(heap_t **root, int value)
 {
 	heap_t *node, *parent;
 
-	/* For an empty tree, create nodes and return tree pointer to tree */
 	if (*root == NULL)
 	{
 		node = binary_tree_node(*root, value);
