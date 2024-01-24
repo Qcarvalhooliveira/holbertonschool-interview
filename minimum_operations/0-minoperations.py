@@ -10,13 +10,12 @@ def minOperations(n):
     Calculates the minimum number of operations to obtain exactly n 'H' characters.
 
     Args:
-        n (int): The desired number of 'H' characters.
+    n (int): The desired number of 'H' characters.
 
     Returns:
-        int: The minimum number of operations required to achieve n 'H' characters,
-             or 0 if n is not achievable.
+    int: The minimum number of operations required to achieve n 'H' characters,
+         or 0 if n is not achievable.
     """
-    
     if n <= 1:
         return 0
 
@@ -30,3 +29,4 @@ def minOperations(n):
         divisor += 1
 
     return opCount
+
