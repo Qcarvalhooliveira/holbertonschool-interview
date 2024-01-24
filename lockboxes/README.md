@@ -1,4 +1,4 @@
-<img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/lockboxes/images/Lockboxes.png" width="600" height="300">
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/lockboxes/images/Lockboxes.png" width="900" height="300">
 
 # **Lockboxes** :computer:
 
