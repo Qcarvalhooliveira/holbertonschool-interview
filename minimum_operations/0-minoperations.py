@@ -1,21 +1,9 @@
 #!/usr/bin/python3
-"""
-This module defines the function minOperations, which calculates the minimum 
-number of operations required to obtain n 'H' characters in a file, using 
-only Copy All and Paste operations.
-"""
+"""This module defines the function minOperations"""
+
 
 def minOperations(n):
-    """
-    Calculates the minimum number of operations to obtain exactly n 'H' characters.
-
-    Args:
-    n (int): The desired number of 'H' characters.
-
-    Returns:
-    int: The minimum number of operations required to achieve n 'H' characters,
-         or 0 if n is not achievable.
-    """
+    """Calculates the minimum number of operations to obtain exactly n 'H'."""
     if n <= 1:
         return 0
 
@@ -29,4 +17,3 @@ def minOperations(n):
         divisor += 1
 
     return opCount
-
