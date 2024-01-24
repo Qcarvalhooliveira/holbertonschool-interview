@@ -1,4 +1,4 @@
-![Minimum-Operations]https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/minimum_operations/image/Minimum-Operations.png
+![Minimum-Operations](https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/minimum_operations/image/Minimum-Operations.png)
 
 # **Minimum Operations** :computer:
 
