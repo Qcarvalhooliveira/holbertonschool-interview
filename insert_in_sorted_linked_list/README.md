@@ -1,3 +1,5 @@
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/insert_in_sorted_linked_list/image/%20Linked_List.png" width="1000" height="300">
+
 # **Insert in sorted linked list** :computer:
 
 ## **Description** :speech_balloon:
