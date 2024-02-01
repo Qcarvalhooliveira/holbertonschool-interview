@@ -9,3 +9,5 @@
 ### [heap_insert](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/heap_insert)
 
 ### [minimum_operations](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/minimum_operations)
+
+#### [sandpiles](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/sandpiles)
