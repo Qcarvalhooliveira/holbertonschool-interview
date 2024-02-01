@@ -1,3 +1,5 @@
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/sandpiles/image/Sandpiles.png" width="1000" height="300">
+
 # **Sandpiles** :computer:
 
 ## **Description** :speech_balloon:
@@ -156,3 +158,11 @@ alex@~/sandpiles$ ./0-sandpiles
 3 3 3
 alex@~/sandpiles$
 ```
+
+## **Author** :black_nib:
+
+* **Queise Carvalho de Oliveira** - [Queise Oliveira](https://github.com/Qcarvalhooliveira)
+
+
+## License :page_with_curl:
+This project is licensed under the [MIT License](https://opensource.org/license/mit/).
