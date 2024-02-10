@@ -10,6 +10,6 @@
 
 ### [minimum_operations](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/minimum_operations)
 
-#### [Sandpiles](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/sandpiles)
+### [Sandpiles](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/sandpiles)
 
 ### [Linked list palindrome](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/linked_list_palindrome)
