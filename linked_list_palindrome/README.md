@@ -1,3 +1,5 @@
+<img scr="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/linked_list_palindrome/image/Palindrome.png">
+
 # **Linked list palindrome** :computer:
 
 ## **Description**:speech_balloon:
