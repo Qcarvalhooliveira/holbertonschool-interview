@@ -1,3 +1,5 @@
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/linked_list_cycle/image/LinkedListCycle.png">
+
 # **Linked List Cycle** :computer:
 
 ## **Description:** :speech_balloon:
