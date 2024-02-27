@@ -1,3 +1,5 @@
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/palindrome_integer/image/palindrome_integer.png" width="1000" height="300">
+
 # **Palindrome integer** :computer:
 
 ## **Description:** :speech_balloon:
