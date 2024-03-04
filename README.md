@@ -15,3 +15,5 @@
 ### [Linked list palindrome](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/linked_list_palindrome)
 
 ### [Palindrome integer](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/palindrome_integer)
+
+### [UTF-8 Validation](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/utf8_validation)
