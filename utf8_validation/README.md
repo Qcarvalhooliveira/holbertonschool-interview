@@ -1,3 +1,5 @@
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/utf8_validation/image/UTF-8%20Validation.png" width="1000" height="300">
+
 # **UTF-8 Validation** :computer:
 
 ## **Description:** :speech_balloon:
