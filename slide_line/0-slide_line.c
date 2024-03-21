@@ -9,13 +9,15 @@
  * Return: 1 upon success, or 0 upon failure
  */
 int slide_line(int *line, size_t size, int direction) {
+    size_t i, next;
+
     if (direction != SLIDE_LEFT && direction != SLIDE_RIGHT) {
         return 0;
     }
 
     if (direction == SLIDE_LEFT) {
-        for (size_t i = 0; i < size; i++) {
-            size_t next = i;
+        for (i = 0; i < size; i++) {
+            next = i;
 
             while (next < size && line[next] == 0) {
                 next++;
@@ -31,9 +33,9 @@ int slide_line(int *line, size_t size, int direction) {
                 line[i + 1] = 0;
             }
         }
-    } else { // SLIDE_RIGHT
-        for (size_t i = size; i > 0; i--) {
-            size_t next = i - 1;
+    } else { /* SLIDE_RIGHT */
+        for (i = size; i > 0; i--) {
+            next = i - 1;
 
             while (next > 0 && line[next] == 0) {
                 next--;
@@ -51,5 +53,5 @@ int slide_line(int *line, size_t size, int direction) {
         }
     }
 
-    return 1;
+    return 1; // Success
 }
