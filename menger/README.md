@@ -1,3 +1,5 @@
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/menger/image/Menger_sponge.jpg">
+
 # **Menger sponge** :computer:
 
 ## **Description:** :speech_balloon:
