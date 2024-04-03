@@ -1,3 +1,5 @@
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/nqueens/image/N_Queens.png" width="1000" height="300">
+
 # **N Queens**
 
 ## **Description:** :speech_balloon:
