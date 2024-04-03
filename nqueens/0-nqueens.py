@@ -3,6 +3,7 @@
 
 import sys
 
+
 def is_safe(queen_positions, row, col):
     """Checks if the position is safe for a new queen"""
     for i in range(row):
@@ -11,6 +12,7 @@ def is_safe(queen_positions, row, col):
            queen_positions[i] + i == col + row:
             return False
     return True
+
 
 def solve_nqueens(size, row, queen_positions):
     """ Solves the N Queens problem recursively"""
@@ -22,6 +24,7 @@ def solve_nqueens(size, row, queen_positions):
             queen_positions[row] = col
             solve_nqueens(size, row + 1, queen_positions)
 
+
 def print_solution(queen_positions):
     """ Prints one solution from the list of queen positions"""
     solution = []
@@ -29,17 +32,18 @@ def print_solution(queen_positions):
         solution.append([row, col])
     print(solution)
 
+
 if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("Usage: nqueens N")
         sys.exit(1)
-    
+
     try:
         N = int(sys.argv[1])
     except ValueError:
         print("N must be a number")
         sys.exit(1)
-    
+
     if N < 4:
         print("N must be at least 4")
         sys.exit(1)
