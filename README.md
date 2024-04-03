@@ -19,3 +19,5 @@
 ### [UTF-8 Validation](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/utf8_validation)
 
 ### [Menger sponge](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/menger)
+
+### [N Queens](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/nqueens)
