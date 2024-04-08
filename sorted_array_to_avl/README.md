@@ -1,4 +1,4 @@
-<img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/sorted_array_to_avl/image/Array_to_AVL.png" width="1000" height="300>
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/sorted_array_to_avl/image/Array_to_AVL.png" width="1000" height="300">
 
 # **Array to AVL**
 
