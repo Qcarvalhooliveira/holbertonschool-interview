@@ -21,3 +21,5 @@
 ### [Menger sponge](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/menger)
 
 ### [N Queens](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/nqueens)
+
+### [Array to AVL](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/sorted_array_to_avl)
