@@ -23,3 +23,5 @@
 ### [N Queens](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/nqueens)
 
 ### [Array to AVL](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/sorted_array_to_avl)
+
+### [Linear search in skip list](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/linear_skip)
