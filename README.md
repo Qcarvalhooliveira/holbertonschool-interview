@@ -24,4 +24,4 @@
 
 ### [Array to AVL](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/sorted_array_to_avl)
 
-### [Linear search in skip list](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/linear_skip)
+### [Linear Skip](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/linear_skip)

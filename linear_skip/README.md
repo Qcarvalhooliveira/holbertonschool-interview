@@ -1,3 +1,5 @@
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/linear_skip/image/skip_list.jpg">
+
 # **Linear search in skip list** :computer:
 
 ## **Description:** :speech_balloon:
