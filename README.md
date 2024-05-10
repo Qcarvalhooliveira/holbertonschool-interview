@@ -25,3 +25,9 @@
 ### [Array to AVL](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/sorted_array_to_avl)
 
 ### [Linear Skip](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/linear_skip)
+
+### [starwars_api](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/starwars_api)
+
+### [rain](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/rain)
+
+### [heap_sort](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/heap_sort)
