@@ -3,6 +3,7 @@
 
 import requests
 
+
 def count_words(subreddit, word_list, after='', result={}):
     """Recursive function that queries the Reddit API"""
     if subreddit is None or subreddit == "" or word_list is None:
