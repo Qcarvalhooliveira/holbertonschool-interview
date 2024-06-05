@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdlib.h>
 #include <stddef.h>
-#include <string.h> /* For strlen */
+#include <string.h>
 
 /**
  * mul - multiplies two positive numbers
