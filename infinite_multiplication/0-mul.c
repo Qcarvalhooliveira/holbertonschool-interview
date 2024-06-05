@@ -34,7 +34,6 @@ void mul(char *num1, char *num2)
 			int tmp = (num1[i] - '0') * (num2[j] - '0') + result[i + j + 1] + carry;
 
             result[i + j + 1] = tmp % 10;
-
 			carry = tmp / 10;
 		}
 		result[i + j + 1] = carry;
