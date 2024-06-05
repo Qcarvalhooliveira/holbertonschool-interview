@@ -13,43 +13,43 @@
  */
 void mul(char *num1, char *num2)
 {
-	int len1, len2, i, j, carry;
-	int *result;
+    int len1, len2, i, j, carry;
+    int *result;
 
-	len1 = _strlen(num1);
-	len2 = _strlen(num2);
+    len1 = _strlen(num1);
+    len2 = _strlen(num2);
 
-	result = calloc(len1 + len2, sizeof(int));
-	if (result == NULL)
-	{
-		write(STDERR_FILENO, "Error\n", 6);
-		exit(98);
-	}
+    result = calloc(len1 + len2, sizeof(int));
+    if (result == NULL)
+    {
+        write(STDERR_FILENO, "Error\n", 6);
+        exit(98);
+    }
 
-	for (i = len1 - 1; i >= 0; i--)
-	{
-		carry = 0;
-		for (j = len2 - 1; j >= 0; j--)
-		{
-			int tmp = (num1[i] - '0') * (num2[j] - '0') + result[i + j + 1] + carry;
-			result[i + j + 1] = tmp % 10;
-			carry = tmp / 10;
-		}
-		result[i + j + 1] = carry;
-	}
+    for (i = len1 - 1; i >= 0; i--)
+    {
+        carry = 0;
+        for (j = len2 - 1; j >= 0; j--)
+        {
+            int tmp = (num1[i] - '0') * (num2[j] - '0') + result[i + j + 1] + carry;
+            result[i + j + 1] = tmp % 10;
+            carry = tmp / 10;
+        }
+        result[i + j + 1] = carry;
+    }
 
-	i = 0;
-	while (i < len1 + len2 && result[i] == 0)
-		i++;
+    i = 0;
+    while (i < len1 + len2 && result[i] == 0)
+        i++;
 
-	if (i == len1 + len2)
-		_putchar('0');
-	else
-		for (; i < len1 + len2; i++)
-			_putchar(result[i] + '0');
-	_putchar('\n');
+    if (i == len1 + len2)
+        _putchar('0');
+    else
+        for (; i < len1 + len2; i++)
+            _putchar(result[i] + '0');
+    _putchar('\n');
 
-	free(result);
+    free(result);
 }
 
 /**
@@ -60,13 +60,13 @@ void mul(char *num1, char *num2)
  */
 int _strlen(char *str)
 {
-	int count = 0;
-	while (*str)
-	{
-		count++;
-		str++;
-	}
-	return count;
+    int count = 0;
+    while (*str)
+    {
+        count++;
+        str++;
+    }
+    return count;
 }
 
 /**
@@ -77,13 +77,13 @@ int _strlen(char *str)
  */
 int _isdigit(char *str)
 {
-	while (*str)
-	{
-		if (*str < '0' || *str > '9')
-			return 0;
-		str++;
-	}
-	return 1;
+    while (*str)
+    {
+        if (*str < '0' || *str > '9')
+            return 0;
+        str++;
+    }
+    return 1;
 }
 
 /**
@@ -95,13 +95,13 @@ int _isdigit(char *str)
  */
 int main(int argc, char **argv)
 {
-	if (argc != 3)
-	{
-		write(STDERR_FILENO, "Error\n", 6);
-		return (98);
-	}
+    if (argc != 3)
+    {
+        write(STDERR_FILENO, "Error\n", 6);
+        return (98);
+    }
 
-	mul(argv[1], argv[2]);
+    mul(argv[1], argv[2]);
 
-	return 0;
+    return (0);
 }
