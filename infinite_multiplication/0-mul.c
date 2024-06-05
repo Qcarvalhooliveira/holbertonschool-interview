@@ -99,8 +99,7 @@ int main(int argc, char **argv)
 {
 	if (argc != 3 || !_isdigit(argv[1]) || !_isdigit(argv[2]))
 	{
-		write(STDERR_FILENO, "Error\n", 6);
-		return (98);
+		write(STDERR_FILENO, "Error\n"), exit(98);
 	}
 
 	mul(argv[1], argv[2]);
