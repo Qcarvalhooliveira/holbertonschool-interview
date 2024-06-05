@@ -33,6 +33,7 @@ void mul(char *num1, char *num2)
 		{
 			int tmp = (num1[i] - '0') * (num2[j] - '0') + result[i + j + 1] + carry;
 			result[i + j + 1] = tmp % 10;
+
 			carry = tmp / 10;
 		}
 		result[i + j + 1] = carry;
@@ -61,12 +62,13 @@ void mul(char *num1, char *num2)
 int _strlen(char *str)
 {
 	int count = 0;
+
 	while (*str)
 	{
 		count++;
 		str++;
 	}
-	return count;
+	return (count);
 }
 
 /**
