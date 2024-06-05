@@ -11,6 +11,7 @@
  *
  * Return: void (no return value)
  */
+
 void mul(char *num1, char *num2)
 {
 	int len1, len2, i, j, carry;
@@ -28,13 +29,16 @@ void mul(char *num1, char *num2)
 
 	for (i = len1 - 1; i >= 0; i--)
 	{
-		carry = 0;
+		
+        carry = 0;
 		for (j = len2 - 1; j >= 0; j--)
-		{
+		
+        {
 			int tmp = (num1[i] - '0') * (num2[j] - '0') + result[i + j + 1] + carry;
 			result[i + j + 1] = tmp % 10;
 			carry = tmp / 10;
 		}
+
 		result[i + j + 1] = carry;
 	}
 
@@ -58,6 +62,7 @@ void mul(char *num1, char *num2)
  *
  * Return: the length of the string
  */
+
 int _strlen(char *str)
 {
 	int count = 0;
@@ -75,6 +80,7 @@ int _strlen(char *str)
  *
  * Return: 1 if all characters are digits, otherwise 0
  */
+
 int _isdigit(char *str)
 {
 	while (*str)
