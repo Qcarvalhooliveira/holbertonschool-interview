@@ -13,61 +13,40 @@
  */
 void mul(char *num1, char *num2)
 {
-    int len1, len2, i, j, carry, tmp;
-    char *result;
-
-    if (!_isdigit(num1) || !_isdigit(num2))
-    {
-        _putchar('E');
-        _putchar('r');
-        _putchar('r');
-        _putchar('o');
-        _putchar('r');
-        _putchar('\n');
-        exit(98);
-    }
+    int len1, len2, i, j, carry;
+    int *result;
 
     len1 = _strlen(num1);
     len2 = _strlen(num2);
 
-    result = malloc((len1 + len2) * sizeof(char));
+    result = calloc(len1 + len2, sizeof(int));
     if (result == NULL)
     {
-        _putchar('E');
-        _putchar('r');
-        _putchar('r');
-        _putchar('o');
-        _putchar('r');
-        _putchar('\n');
+        write(STDERR_FILENO, "Error\n", 6);
         exit(98);
     }
-
-    for (i = 0; i < len1 + len2; i++)
-        result[i] = '0';
 
     for (i = len1 - 1; i >= 0; i--)
     {
         carry = 0;
         for (j = len2 - 1; j >= 0; j--)
         {
-            tmp = (num1[i] - '0') * (num2[j] - '0') + (result[i + j + 1] - '0') + carry;
-            result[i + j + 1] = (tmp % 10) + '0';
+            int tmp = (num1[i] - '0') * (num2[j] - '0') + result[i + j + 1] + carry;
+            result[i + j + 1] = tmp % 10;
             carry = tmp / 10;
         }
-
-        if (carry)
-            result[i + j + 2] = carry + '0';
+        result[i + j + 1] = carry;
     }
 
     i = 0;
-    while (result[i] == '0' && i < len1 + len2)
+    while (i < len1 + len2 && result[i] == 0)
         i++;
 
     if (i == len1 + len2)
         _putchar('0');
     else
         for (; i < len1 + len2; i++)
-            _putchar(result[i]);
+            _putchar(result[i] + '0');
     _putchar('\n');
 
     free(result);
