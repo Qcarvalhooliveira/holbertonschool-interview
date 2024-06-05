@@ -80,17 +80,17 @@ int _isdigit(char *str)
 	while (*str)
 	{
 		if (*str < '0' || *str > '9')
-			return 0;
+			return (0);
 		str++;
 	}
-	return 1;
+	return (1);
 }
 
 /**
  * main - Entry point for the program.
  * @argc: The number of arguments passed to the program.
  * @argv: An array of pointers to the arguments.
- * 
+ *
  * Return: On success, returns 0.
  */
 int main(int argc, char **argv)
@@ -103,5 +103,5 @@ int main(int argc, char **argv)
 
 	mul(argv[1], argv[2]);
 
-	return 0;
+	return (0);
 }
