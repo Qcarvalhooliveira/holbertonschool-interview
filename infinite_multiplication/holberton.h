@@ -3,6 +3,7 @@
 
 int _putchar(char c);
 void mul(char *num1, char *num2);
+int _strlen(char *str);
 int is_digit_string(char *str);
 
 #endif /* HOLBERTON_H */

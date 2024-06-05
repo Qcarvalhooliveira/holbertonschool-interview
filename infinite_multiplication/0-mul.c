@@ -8,6 +8,8 @@
  * @num1: the first number
  * @num2: the second number
  */
+
+
 void mul(char *num1, char *num2)
 {
     int len1, len2, i, j, carry, tmp, *result;
@@ -66,6 +68,24 @@ void mul(char *num1, char *num2)
 
     free(result);
 }
+
+/**
+ * _strlen - calculates the length of a string
+ * @str: the string to calculate the length of
+ *
+ * Return: the length of the string
+ */
+int _strlen(char *str)
+{
+    int count = 0;
+    while (*str)
+    {
+        count++;
+        str++;
+    }
+    return count;
+}
+
 
 /**
  * is_digit_string - checks if a string contains only digits
