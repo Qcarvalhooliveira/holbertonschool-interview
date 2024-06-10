@@ -31,3 +31,5 @@
 ### [rain](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/rain)
 
 ### [heap_sort](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/heap_sort)
+
+### [rotate_2d_matrix](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/rotate_2d_matrix)
