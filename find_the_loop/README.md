@@ -1,3 +1,5 @@
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/find_the_loop/image/Find-the-Loop.png" width="1000" height="400">
+
 # **Find the Loop** :computer:
 
 ## **Description:** :speech_balloon:
