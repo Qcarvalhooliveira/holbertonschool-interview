@@ -33,3 +33,5 @@
 ### [heap_sort](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/heap_sort)
 
 ### [rotate_2d_matrix](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/rotate_2d_matrix)
+
+### [find_the_loop](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/find_the_loop)
