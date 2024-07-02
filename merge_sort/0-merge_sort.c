@@ -19,23 +19,30 @@ void merge(int *array, int *temp, size_t left, size_t mid, size_t right)
     printf("[right]: ");
     print_array(array + mid, right - mid);
 
-    while (i < mid && j < right) {
-        if (array[i] <= array[j]) {
+    while (i < mid && j < right)
+    {
+        if (array[i] <= array[j])
+        {
             temp[k++] = array[i++];
-        } else {
+        }
+        else
+        {
             temp[k++] = array[j++];
         }
     }
 
-    while (i < mid) {
+    while (i < mid)
+    {
         temp[k++] = array[i++];
     }
 
-    while (j < right) {
+    while (j < right)
+    {
         temp[k++] = array[j++];
     }
 
-    for (i = left; i < right; i++) {
+    for (i = left; i < right; i++)
+    {
         array[i] = temp[i];
     }
 
@@ -52,7 +59,8 @@ void merge(int *array, int *temp, size_t left, size_t mid, size_t right)
  */
 void merge_sort_recursive(int *array, int *temp, size_t left, size_t right)
 {
-    if (right - left > 1) {
+    if (right - left > 1)
+    {
         size_t mid = left + (right - left) / 2;
 
         merge_sort_recursive(array, temp, left, mid);
