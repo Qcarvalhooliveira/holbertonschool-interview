@@ -1,3 +1,5 @@
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/making_change/image/Making-Change.png" width="1000" height="300">
+
 # **Making Change** :computer:
 
 ## **Description:** :speech_balloon:
