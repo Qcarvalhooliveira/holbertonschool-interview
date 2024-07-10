@@ -36,4 +36,6 @@
 
 ### [find_the_loop](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/find_the_loop)
 
+### [merge_sort](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/merge_sort)
+
 ### [making_change](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/making_change)
