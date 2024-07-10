@@ -1,4 +1,4 @@
-<img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/merge_sort/image/Merge-Sort.png" width="1000" height="500">
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/merge_sort/image/Merge-Sort.png" width="1000" height="400">
 
 # **Merge Sort** :computer:
 
