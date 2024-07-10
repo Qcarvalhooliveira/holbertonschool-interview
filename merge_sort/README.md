@@ -2,6 +2,7 @@
 
 ## **Description:** :speech_balloon:
 
+* This exercise involves implementing a merge sort algorithm in C to sort an array of integers in ascending order. The task requires the development of the merge_sort function using a top-down approach, adhering to specific constraints such as sorting the left subarray before the right and ensuring only one memory allocation is used for the temporary array. The implementation should also include the print_array function for output, and the code must follow the Betty coding style guidelines. The merge sort algorithm's time complexities for best, average, and worst cases should be documented as O(nlog(n)). 
 
 ## **More Info**
 
