@@ -12,8 +12,8 @@
  */
 List *add_node_end(List **list, char *str)
 {
-    List *new_node, *last_node;
-    char *str_copy;
+List *new_node, *last_node;
+char *str_copy;
 
 	if (list == NULL || str == NULL)
 		return (NULL);
