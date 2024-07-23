@@ -31,9 +31,6 @@ void radix_sort(int *array, size_t size)
 	int max = getMax(array, size);
 	int exp;
 
-	/* Execute countSort for each digit. Note that instead of passing digit number, exp is passed.
-	 * exp is 10^i where i is the current digit number
-	 */
 	for (exp = 1; max / exp > 0; exp *= 10)
 	{
 		countSort(array, size, exp);
@@ -54,27 +51,23 @@ int getMax(int *array, size_t size)
 
 void countSort(int *array, size_t size, int exp)
 {
-	int *output = malloc(size * sizeof(int)); /* output array */
+	int *output = malloc(size * sizeof(int));
 	int count[10] = {0};
 	size_t i;
 	int j;
 
-	/* Store count of occurrences in count[] */
 	for (i = 0; i < size; i++)
 		count[(array[i] / exp) % 10]++;
 
-	/* Change count[i] so that count[i] now contains actual position of this digit in output[] */
 	for (j = 1; j < 10; j++)
 		count[j] += count[j - 1];
 
-	/* Build the output array */
 	for (i = size; i > 0; i--)
 	{
 		output[count[(array[i - 1] / exp) % 10] - 1] = array[i - 1];
 		count[(array[i - 1] / exp) % 10]--;
 	}
 
-	/* Copy the output array to array[], so that array now contains sorted numbers */
 	for (i = 0; i < size; i++)
 		array[i] = output[i];
 
