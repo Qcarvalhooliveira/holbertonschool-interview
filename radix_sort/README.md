@@ -1,3 +1,5 @@
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/radix_sort/image/radix_sort.png" width="1000" height="400">
+
 # **Radix Sort** :computer:
 
 ## **Description:** :speech_balloon:
