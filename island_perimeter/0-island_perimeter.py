@@ -1,3 +1,8 @@
+#!/usr/bin/python3
+"""
+Module that returns the perimeter of the island.
+"""
+
 def island_perimeter(grid):
     perimeter = 0
 
