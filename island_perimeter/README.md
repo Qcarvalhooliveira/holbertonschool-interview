@@ -1,3 +1,5 @@
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/island_perimeter/image/island_perimeter.png" width="1000" height="400">
+
 # **Island Perimeter** :computer:
 
 ## **Description:** :speech_balloon:
