@@ -1,6 +1,6 @@
 #include "binary_trees.h"
-#include <stdlib.h>  // Para abs
-#include <limits.h>  // Para INT_MIN e INT_MAX
+#include <stdlib.h>  /* Para abs */
+#include <limits.h>  /* Para INT_MIN e INT_MAX */
 #include <stddef.h>
 
 /**
@@ -12,7 +12,7 @@
  */
 int max(int a, int b)
 {
-    return (a > b ? a : b);
+	return (a > b ? a : b);
 }
 
 /**
@@ -23,9 +23,9 @@ int max(int a, int b)
  */
 int height(const binary_tree_t *tree)
 {
-    if (tree == NULL)
-        return (0);
-    return (1 + max(height(tree->left), height(tree->right)));
+	if (tree == NULL)
+		return (0);
+	return (1 + max(height(tree->left), height(tree->right)));
 }
 
 /**
@@ -38,11 +38,11 @@ int height(const binary_tree_t *tree)
  */
 int is_bst(const binary_tree_t *tree, int min, int max)
 {
-    if (tree == NULL)
-        return (1);
-    if (tree->n <= min || tree->n >= max)
-        return (0);
-    return (is_bst(tree->left, min, tree->n) && is_bst(tree->right, tree->n, max));
+	if (tree == NULL)
+		return (1);
+	if (tree->n <= min || tree->n >= max)
+		return (0);
+	return (is_bst(tree->left, min, tree->n) && is_bst(tree->right, tree->n, max));
 }
 
 /**
@@ -54,23 +54,24 @@ int is_bst(const binary_tree_t *tree, int min, int max)
  */
 int is_avl_helper(const binary_tree_t *tree, int *height)
 {
-    int left_height = 0, right_height = 0;
+	int left_height = 0, right_height = 0;
 
-    if (tree == NULL)
-    {
-        *height = 0;
-        return (1);
-    }
+	if (tree == NULL)
+	{
+		*height = 0;
+		return (1);
+	}
 
-    if (!is_avl_helper(tree->left, &left_height) || !is_avl_helper(tree->right, &right_height))
-        return (0);
+	if (!is_avl_helper(tree->left, &left_height) ||
+		!is_avl_helper(tree->right, &right_height))
+		return (0);
 
-    *height = 1 + max(left_height, right_height);
+	*height = 1 + max(left_height, right_height);
 
-    if (abs(left_height - right_height) > 1)
-        return (0);
+	if (abs(left_height - right_height) > 1)
+		return (0);
 
-    return (1);
+	return (1);
 }
 
 /**
@@ -81,13 +82,13 @@ int is_avl_helper(const binary_tree_t *tree, int *height)
  */
 int binary_tree_is_avl(const binary_tree_t *tree)
 {
-    int height = 0;
+	int height = 0;
 
-    if (tree == NULL)
-        return (0);
+	if (tree == NULL)
+		return (0);
 
-    if (!is_bst(tree, INT_MIN, INT_MAX))
-        return (0);
+	if (!is_bst(tree, INT_MIN, INT_MAX))
+		return (0);
 
-    return (is_avl_helper(tree, &height));
+	return (is_avl_helper(tree, &height));
 }
