@@ -1,6 +1,6 @@
 #include "binary_trees.h"
-#include <stdlib.h>  /* Para abs */
-#include <limits.h>  /* Para INT_MIN e INT_MAX */
+#include <stdlib.h>
+#include <limits.h>
 #include <stddef.h>
 
 /**
@@ -42,8 +42,8 @@ int is_bst(const binary_tree_t *tree, int min, int max)
 		return (1);
 	if (tree->n <= min || tree->n >= max)
 		return (0);
-	return (is_bst(tree->left, min, tree->n) && 
-                    is_bst(tree->right, tree->n, max));
+	return (is_bst(tree->left, min, tree->n) &&
+		is_bst(tree->right, tree->n, max));
 }
 
 /**
