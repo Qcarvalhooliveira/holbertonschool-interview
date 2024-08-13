@@ -14,9 +14,15 @@
 
 ### [Linked list palindrome](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/linked_list_palindrome)
 
+### [log_parsing](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/log_parsing)
+
+### [linked_list_cycle](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/linked_list_cycle)
+
 ### [Palindrome integer](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/palindrome_integer)
 
 ### [UTF-8 Validation](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/utf8_validation)
+
+### [slide_line](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/slide_line)
 
 ### [Menger sponge](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/menger)
 
