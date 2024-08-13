@@ -1,3 +1,5 @@
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/infinite_multiplication/image/infinite_miltiplication.png" width="1000" height="400">
+
 # **Infinite Multiplication** :computer:
 
 ## **Description** :speech_balloon:
