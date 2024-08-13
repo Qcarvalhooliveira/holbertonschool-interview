@@ -32,6 +32,14 @@
 
 ### [heap_sort](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/heap_sort)
 
+### [advanced_binary_search](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/advanced_binary_search)
+
+### [count_it](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/count_it)
+
+### [heap_extract](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/heap_extract)
+
+### [infinite_multiplication](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/infinite_multiplication)
+
 ### [rotate_2d_matrix](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/rotate_2d_matrix)
 
 ### [find_the_loop](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/find_the_loop)
