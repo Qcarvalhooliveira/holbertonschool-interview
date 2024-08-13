@@ -1,3 +1,5 @@
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/heap_extract/image/heap_extract.png" width="1000" height="400">
+
 # **Heap Extract** :computer:
 
 ## **Description** :speech_balloon:
