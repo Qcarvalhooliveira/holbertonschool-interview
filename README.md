@@ -45,3 +45,7 @@
 ### [radix_sort](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/radix_sort)
 
 ### [island_perimeter](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/island_perimeter)
+
+### [avl_trees](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/avl_trees)
+
+### [wild_cmp](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/wild_cmp)
