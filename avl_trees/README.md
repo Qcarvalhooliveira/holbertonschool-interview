@@ -1,3 +1,5 @@
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/avl_trees/image/AVL_Trees.png" width="1000" height="400">
+
 # **AVL Trees** :computer:
 
 ## **Description** :speech_balloon:
