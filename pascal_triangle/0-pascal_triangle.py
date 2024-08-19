@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 """
-This module defines the Pascal’s triangle of n
+0-pascal_triangle
 """
-
 
 def pascal_triangle(n):
     """
