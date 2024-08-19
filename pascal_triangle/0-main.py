@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 """
-Main file for testing
+0-main
 """
-pascal_triangle = __import__("pascal_triangle").pascal_triangle
+pascal_triangle = __import__('0-pascal_triangle').pascal_triangle
+
 
 def print_triangle(triangle):
     """
