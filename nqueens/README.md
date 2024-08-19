@@ -44,4 +44,3 @@ julien@ubuntu:~/0x08. N Queens$
 
 ## License :page_with_curl:
 This project is licensed under the [MIT License](https://opensource.org/license/mit/).
-
