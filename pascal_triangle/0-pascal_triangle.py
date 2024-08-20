@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module that defines the Pascal's tringle of n."""
+"""Module that defines the Pascal's triangle of n."""
 
 def pascal_triangle(n):
     """Generate Pascal's triangle up to nth row (inclusive)."""
