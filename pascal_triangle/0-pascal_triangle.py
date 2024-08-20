@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """Module that defines the Pascal's tringle of n."""
 
 def pascal_triangle(n):
@@ -11,7 +11,7 @@ def pascal_triangle(n):
     for i in range(1, n):
         row = [1]
         for j in range(1, i):
-            row.append(triangle[i-1][i-j] + triangle[i-1][j])
+            row.append(triangle[i-1][j-1] + triangle[i-1][j])
         row.append(1)
         triangle.append(row)
 
