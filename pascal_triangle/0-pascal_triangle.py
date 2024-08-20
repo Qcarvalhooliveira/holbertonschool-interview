@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python
 """Module that defines the Pascal's tringle of n."""
 
 def pascal_triangle(n):
