@@ -1,8 +1,13 @@
 #!/usr/bin/python3
-"""Module that defines the Pascal's triangle of n."""
+"""
+0-pascal_triangle Module that defines the Pascal's triangle of n.
+"""
+
 
 def pascal_triangle(n):
-    """Generate Pascal's triangle up to nth row (inclusive)."""
+    """
+    Generate Pascal's triangle up to nth row (inclusive).
+    """
     if n <= 0:
         return []
     
