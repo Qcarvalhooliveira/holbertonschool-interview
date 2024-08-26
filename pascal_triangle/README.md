@@ -1,3 +1,5 @@
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/pascal_triangle/image/Pascal's%20triangle.png" width="1000" height="400">
+
 # **Pascal's Triangle** :computer:
 
 ## **Description** :speech_balloon:
