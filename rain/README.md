@@ -1,3 +1,5 @@
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/rain/image/rain.png" width="1000" height="400">
+
 # **Rain** :computer:
 
 ## **Description** :speech_balloon:
@@ -39,11 +41,11 @@ jesse@ubuntu:~/$
 
 Visual representation of the walls [0, 1, 0, 2, 0, 3, 0, 4]
 
-<img src="">
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/rain/image/rain1.png">
 
 Visual representation of the walls [2, 0, 0, 4, 0, 0, 1, 0]
 
-<img src="">
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/rain/image/rain2.png">
 
 
 ## **Author** :black_nib:
