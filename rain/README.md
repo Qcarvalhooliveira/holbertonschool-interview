@@ -4,7 +4,7 @@
 
 ## **Description** :speech_balloon:
 
-*The exercise involves calculating the amount of rainwater that can be trapped between walls of varying heights after it rains. Given a list of non-negative integers representing the heights of the walls, where each integer corresponds to the height of a wall with a unit width of 1, the goal is to determine the total number of square units of water that would be retained between the walls after rainfall. The walls are represented as a cross-sectional view of a relief map, and water can only be trapped between taller walls, with the amount dependent on the shorter of the two bounding walls. The function should return the total water retained or 0 if the list is empty.
+* The exercise involves calculating the amount of rainwater that can be trapped between walls of varying heights after it rains. Given a list of non-negative integers representing the heights of the walls, where each integer corresponds to the height of a wall with a unit width of 1, the goal is to determine the total number of square units of water that would be retained between the walls after rainfall. The walls are represented as a cross-sectional view of a relief map, and water can only be trapped between taller walls, with the amount dependent on the shorter of the two bounding walls. The function should return the total water retained or 0 if the list is empty.
 
 ## **Task** :books:
 
