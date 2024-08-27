@@ -1,3 +1,5 @@
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/log_parsing/image/Log_parsing.png" width="1000" height="400">
+
 # **Log Parsing** :computer:
 
 ## **Description** :speech_balloon:
