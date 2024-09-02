@@ -5,12 +5,14 @@
 
 /**
  * find_substring - Finds all starting indices in string s where a substring
- * containing all the words from the array `words` exactly once in any order appears.
+ * containing all the words from the array `words` exactly once in any order
+ * appears.
  * @s: The string to search.
  * @words: The array of words.
  * @nb_words: Number of words in the array `words`.
  * @n: Pointer to an integer where the number of found indices will be stored.
- * Return: An array of starting indices where the substrings are found or NULL if none found.
+ * Return: An array of starting indices where the substrings are found or
+ * NULL if none found.
  */
 int *find_substring(char const *s, char const **words, int nb_words, int *n)
 {
@@ -28,6 +30,7 @@ int *find_substring(char const *s, char const **words, int nb_words, int *n)
 
 	expected_count = calloc(nb_words, sizeof(int));
 	current_count = calloc(nb_words, sizeof(int));
+
 	if (!expected_count || !current_count)
 	{
 		free(expected_count);
@@ -42,6 +45,12 @@ int *find_substring(char const *s, char const **words, int nb_words, int *n)
 		if (is_valid_substring(s, i, word_len, nb_words, words, expected_count))
 		{
 			indices = realloc(indices, (count + 1) * sizeof(int));
+			if (!indices)
+			{
+				free(expected_count);
+				free(current_count);
+				return (NULL);
+			}
 			indices[count++] = i;
 		}
 	}
@@ -84,7 +93,7 @@ void count_word_frequency(char const **words, int nb_words, int *expected_count)
  * Return: 1 if valid, 0 otherwise.
  */
 int is_valid_substring(const char *s, int start, int word_len, int nb_words,
-                       const char **words, int *expected_count)
+	const char **words, int *expected_count)
 {
 	int *current_count;
 	int j, k;
