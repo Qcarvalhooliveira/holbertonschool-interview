@@ -63,3 +63,9 @@
 ### [avl_trees](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/avl_trees)
 
 ### [wild_cmp](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/wild_cmp)
+
+### [pascal_triangle](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/pascal_triangle)
+
+### [regex](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/regex)
+
+### [substring](https://github.com/Qcarvalhooliveira/holbertonschool-interview/tree/main/substring)
