@@ -1,4 +1,6 @@
+<p align="center">
 <img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/starwars_api/image/Starwars_Api.PNG">
+</p>
 
 # **Star Wars API** :computer:
 
