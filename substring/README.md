@@ -1,3 +1,5 @@
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/substring/image/substring.png" width="1000" height="400">
+
 # **Substring with concatenated words**
 
 
