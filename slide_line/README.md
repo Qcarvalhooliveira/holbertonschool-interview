@@ -1,3 +1,5 @@
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/slide_line/image/2048%20(single%20line).png" width="1000" height="400">
+
 # **2048 (single line)** :computer:
 
 ## **Description** :speech_balloon:
