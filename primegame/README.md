@@ -1,3 +1,5 @@
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-interview/blob/main/primegame/image/Prime%20Game.png" width="1000" height="400">
+
 # **Prime Game**
 
 ## **Description** :speech_balloon:
