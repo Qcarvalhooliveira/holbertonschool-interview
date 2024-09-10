@@ -1,8 +1,12 @@
 #!/usr/bin/python3
-"""Method that determines who the winner of each game is."""
+"""Determines the winner of a prime number game between Maria and Ben."""
 
 def isWinner(x, nums):
+    """
+    Determines who won the most rounds."""
+    
     def is_prime(n):
+        """Checks if a number is prime."""
         if n < 2:
             return False
         for i in range(2, int(n ** 0.5) + 1):
@@ -11,6 +15,7 @@ def isWinner(x, nums):
         return True
 
     def prime_count(n):
+        """Counts primes up to n."""
         primes = [True] * (n + 1)
         count = 0
         for i in range(2, n + 1):
@@ -25,7 +30,6 @@ def isWinner(x, nums):
 
     for n in nums:
         prime_moves = prime_count(n)
-        
         if prime_moves % 2 == 0:
             ben_wins += 1
         else:
